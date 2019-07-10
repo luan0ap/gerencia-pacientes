@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/7/2/72kp0ph29b.ico" type="image/x-icon" />
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <title>Gerência de Pacientes</title>
+  </head>
+  <body>
+    <div class="principal">
+    <section class="primeira-sessao">
+        <h1>Gerencia de <br> Pacientes</h1>
+        <div class="container">
+          <form class="formulario">
+            <fieldset>
+              <legend>Cadastro</legend>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Ex: Amanda" style="text-transform: capitalize" required /><br />
+              <label for="idade">Idade</label>
+              <input type="number" id="idade" placeholder="Ex: 19" required />
+              <label for="sexo">Sexo</label>
+              <select name="sexo" id="sexo" required>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+              </select>
+                <label for="peso">Peso</label>
+              <input type="text" id="peso" placeholder="Ex: 54" required />
+              <label for="altura">Altura</label>
+              <input type="text" id="altura" placeholder="Ex: 1.67" required/>
+            </fieldset>
+            <button type="submit">Adicionar<ion-icon name="checkmark"></ion-icon></button>
+          </form>
+  </section>
+
+  <section class="segunda-sessao">
+    <table>
+      <thead>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Sexo</th>
+        <th>Peso(kg)</th>
+        <th>Altura(m)</th>
+        <th>IMC</th>
+        <th colspan="2"><ion-icon name="arrow-dropdown"></ion-icon></th>
+      </thead>
+      <tbody class="tabela-pacientes">
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+        <tr class="paciente">
+          <td class="td-nome">Amandinha</td>
+          <td class="td-idade">19</td>
+          <td class="td-sexo">Feminino</td>
+          <td class="td-peso">66</td>
+          <td class="td-altura">1.60</td>
+          <td class="td-imc">1515</td>
+          <td class="td-editar"><ion-icon name="create"></ion-icon></td>
+          <td class="td-excluir"><ion-icon name="trash"></ion-icon></td>
+        </tr>
+
+      </tbody>
+    </table>
+ </section>
+</div>
+
+  </body>
+</html>
