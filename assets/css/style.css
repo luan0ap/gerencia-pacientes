@@ -205,3 +205,8 @@ ion-icon {
 ion-icon:hover {
     color: var(--color3);
 }
+
+.sumiu {
+    opacity: 0;
+    transition: 0.5s;
+}
