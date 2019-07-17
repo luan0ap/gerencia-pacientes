@@ -80,7 +80,7 @@ function montaTr(paciente) {
 
 function montaTd(dado, classe) {
     var td = document.createElement("td");
-    td.textContent = dado;
+    td.innerHTML = dado;
 
     td.classList.add(classe);
     return td;
